@@ -8,7 +8,7 @@ const Filter = () => {
   const dispatch = useDispatch();
   const filterValue = useSelector(getFilterValue);
   const contacts = useSelector(getContacts);
-  const isEmptyList = contacts.length == 0 ? true : false;
+  const isEmptyList = contacts.length === 0 ? true : false;
 
   return (
     <>
